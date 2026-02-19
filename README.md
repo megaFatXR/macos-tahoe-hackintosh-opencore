@@ -3,6 +3,9 @@
 ![macOS Tahoe](https://img.shields.io/badge/macOS-26_Tahoe-black?style=for-the-badge&logo=apple)
 ![OpenCore](https://img.shields.io/badge/OpenCore-1.0.6-blue?style=for-the-badge)
 
+<img width="1917" height="1080" alt="Screenshot 2026-02-19 at 6 30 50 PM" src="https://github.com/user-attachments/assets/9b211c89-7e64-4f3b-adeb-2065af0e1d62" />
+
+
 A fully working Hackintosh EFI for the ASUS ROG STRIX B460-I GAMING motherboard running macOS 16 Tahoe (v26.0.1). This repository documents the specific ACPI patches, kexts, and BIOS configurations required to get a perfectly stable system on this hardware combination.
 
 ## 🖥 Hardware Specifications
@@ -70,3 +73,12 @@ macOS writes data to the RTC (Real Time Clock) memory during shutdown. The ASUS 
 
 ## ⚠️ SMBIOS Warning
 **DO NOT use this `config.plist` as-is!** The SMBIOS data (`SystemSerialNumber`, `SystemUUID`, `MLB`, and `ROM`) in this repository has been randomized or removed for security. You must generate your own unique SMBIOS values using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) before connecting to the internet or logging into your Apple ID. Failure to do so will result in Apple blacklisting your account from iMessage, FaceTime, and the App Store.
+
+
+<img width="607" height="872" alt="Screenshot 2026-02-19 at 7 14 28 PM" src="https://github.com/user-attachments/assets/fe1e48c8-0480-4cb8-96ee-4941dea71122" />
+
+<img width="704" height="953" alt="Screenshot 2026-02-19 at 7 14 54 PM" src="https://github.com/user-attachments/assets/50a9e847-3c36-442b-bbcf-93bb58436f35" />
+
+
+
+
