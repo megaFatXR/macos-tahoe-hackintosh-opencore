@@ -1,4 +1,4 @@
-# ASUS ROG STRIX B460-I Hackintosh – macOS 16 Tahoe
+# Hackintosh - Opencore – macOS 26 Tahoe
 
 ![macOS Tahoe](https://img.shields.io/badge/macOS-26_Tahoe-black?style=for-the-badge&logo=apple)
 ![OpenCore](https://img.shields.io/badge/OpenCore-1.0.6-blue?style=for-the-badge)
