@@ -21,6 +21,10 @@ A fully working Hackintosh EFI for the ASUS ROG STRIX B460-I GAMING motherboard 
 | **Ethernet** | Intel I225-V 2.5Gb |
 | **Bootloader** | OpenCore |
 
+|  |  |
+| :---: | :---: |
+| ![Hackintosh 1](https://github.com/user-attachments/assets/fe1e48c8-0480-4cb8-96ee-4941dea71122) | ![Hackintosh 2](https://github.com/user-attachments/assets/50a9e847-3c36-442b-bbcf-93bb58436f35) |
+
 ## ✅ What Works
 * **GPU Acceleration** (AMD RX 6900 XT)
 * **Wi-Fi** (Intel via HeliPort & `itlwm.kext`)
@@ -75,9 +79,7 @@ macOS writes data to the RTC (Real Time Clock) memory during shutdown. The ASUS 
 **DO NOT use this `config.plist` as-is!** The SMBIOS data (`SystemSerialNumber`, `SystemUUID`, `MLB`, and `ROM`) in this repository has been randomized or removed for security. You must generate your own unique SMBIOS values using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) before connecting to the internet or logging into your Apple ID. Failure to do so will result in Apple blacklisting your account from iMessage, FaceTime, and the App Store.
 
 
-<img width="607" height="872" alt="Screenshot 2026-02-19 at 7 14 28 PM" src="https://github.com/user-attachments/assets/fe1e48c8-0480-4cb8-96ee-4941dea71122" />
 
-<img width="704" height="953" alt="Screenshot 2026-02-19 at 7 14 54 PM" src="https://github.com/user-attachments/assets/50a9e847-3c36-442b-bbcf-93bb58436f35" />
 
 
 
